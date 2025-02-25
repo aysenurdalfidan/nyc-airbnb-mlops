@@ -27,8 +27,15 @@ We used the NYC Airbnb dataset and performed various data preprocessing steps:
 **Average Prices by Neighborhood**
 ![Average Prices](images/average-prices.png)
 
-We also created an interactive map for Airbnb listings with clustering applied:
-[Interactive Airbnb Clusters Map](airbnb_clusters.html)
+---
+
+## Interactive Map
+An interactive map was created to visualize Airbnb listings with clustering applied.
+
+**Airbnb Clusters Map**
+![Interactive Map](images/interactive-map.png)
+
+**View the interactive version here:** [Airbnb Clusters Map](https://67bd50d7c7dbbff852419b4c--glowing-marshmallow-41dc8e.netlify.app/)
 
 ---
 
@@ -78,7 +85,7 @@ comparison_df = pd.DataFrame({
 ---
 
 ## API Deployment with FastAPI
-We developed a FastAPI microservice to serve the model's predictions:
+A FastAPI microservice was developed to serve the model's predictions.
 
 ```python
 from fastapi import FastAPI
@@ -107,7 +114,7 @@ curl -X 'POST' \
 ---
 
 ## Docker Containerization
-To make the service portable, we containerized the API using Docker.
+To make the service portable, the API was containerized using Docker.
 
 ### Dockerfile:
 ```dockerfile
@@ -133,5 +140,3 @@ docker run -p 8000:8000 airbnb-model-api
 - **API Development**: FastAPI
 - **Deployment**: Docker
 - **Visualization**: Folium (Interactive Map), Matplotlib
-
-
