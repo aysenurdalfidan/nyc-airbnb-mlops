@@ -27,8 +27,8 @@ We used the NYC Airbnb dataset and performed various data preprocessing steps:
 **Average Prices by Neighborhood**
 ![Average Prices](images/average-prices.png)
 
-We also created an interactive map for Airbnb listings with clustering applied:  
-**[Interactive Airbnb Clusters Map](https://glowing-marshmallow-41dc8e.netlify.app/)**  
+We also created an interactive map for Airbnb listings with clustering applied:
+[Interactive Airbnb Clusters Map](airbnb_clusters.html)
 
 ---
 
@@ -133,3 +133,5 @@ docker run -p 8000:8000 airbnb-model-api
 - **API Development**: FastAPI
 - **Deployment**: Docker
 - **Visualization**: Folium (Interactive Map), Matplotlib
+
+
